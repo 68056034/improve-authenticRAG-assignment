@@ -299,7 +299,7 @@ def truncate_context(self, context, max_tokens=4000):
 |---|---|---|---|
 | 1 | doc_1 → doc_2 → doc_3 → doc_7 → doc_6 | doc_1 → doc_2 → doc_6 → doc_3 → doc_7 | 5/5 |
 | 2 | **doc_2** → doc_0 → **doc_1** → **doc_13** → doc_15 | **doc_2** → **doc_13** → **doc_1** → doc_10 → doc_3 | 3/5 |
-| 3 | **doc_6 **→ **doc_1** → doc_2 → doc_11 → **doc_13** | **doc_6** → **doc_1** → doc_10 → doc_9 → **doc_13** | 3/5 |
+| 3 | **doc_6** → **doc_1** → doc_2 → doc_11 → **doc_13** | **doc_6** → **doc_1** → doc_10 → doc_9 → **doc_13** | 3/5 |
 | 4 | **doc_13** → **doc_2** → **doc_11** → doc_1 → doc_3 | **doc_13** → doc_10 → **doc_11** → **doc_2** → doc_6 | 3/5 |
 | 5 | doc_1 → doc_2 → doc_6 → doc_3 → doc_10 | doc_1 → doc_2 → doc_6 → doc_10 → doc_3 | 5/5 |
 
