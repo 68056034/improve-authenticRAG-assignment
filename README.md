@@ -24,8 +24,8 @@
 | [authenticRAGbak.py](authenticRAGbak.py) | โหลด Markdown แบ่ง chunks สร้างบริบทและ embedding นำเข้า OpenSearch และมีตัวอย่างค้นหาแบบเดิม |
 | [authenticRAG.py](authenticRAG.py) | มีขั้นตอนนำเข้าเช่นเดียวกัน และเพิ่ม reranker ในส่วนค้นหา |
 | [corpus_input](corpus_input) | เอกสาร Markdown ที่ใช้เป็น corpus ตาม paths ในโปรแกรมนำเข้า |
-| `onlysearchAuthenticRAGbak.py` | ค้นหาและตอบจาก index ที่มีอยู่โดยใช้ RRF |
-| `onlysearchAuthenticRAG.py` | ค้นหาจาก index เดิม แล้วจัดอันดับเอกสารที่ค้นพบใหม่ก่อนสร้างคำตอบ |
+| [onlysearchAuthenticRAGbak.py](onlysearchAuthenticRAGbak.py) | ค้นหาและตอบจาก index ที่มีอยู่โดยใช้ RRF |
+| [onlysearchAuthenticRAG.py](onlysearchAuthenticRAG.py) | ค้นหาจาก index เดิม แล้วจัดอันดับเอกสารที่ค้นพบใหม่ก่อนสร้างคำตอบ |
 
 > ไฟล์นำเข้า `authenticRAG.py` และ `authenticRAGbak.py` ยังเรียก Qwen2.5 72B ผ่าน OpenRouter ส่วนโปรแกรม `onlysearch...` ที่ใช้สร้างผลเปรียบเทียบนี้เรียก Qwen2.5 7B ผ่าน Ollama จึงไม่ได้หมายความว่าทุกส่วนของโปรเจกต์เปลี่ยนเป็น local แล้ว
 
