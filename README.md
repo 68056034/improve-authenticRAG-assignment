@@ -154,7 +154,7 @@ def rrf_fusion(self, rankings, k=60):
 
 โค้ดจริงใช้ `enumerate()` ที่เริ่มอันดับจาก 0 ดังนั้นอันดับแรกมีส่วนร่วม `1/60 ≈ 0.01667` เมื่อ `k=60` หาก chunk ปรากฏทั้งสองรายการจะได้ส่วนร่วมจากทั้งสองรายการ `k` ในสูตร RRF เป็นค่าคงที่ในสูตร ส่วน `k` ใน `hybrid_search()` เป็นจำนวนผลสุดท้าย
 
-### 4.3 หลังปรับ: โหลด Reranker หนึ่งครั้ง
+### 4.3 หลังปรับ: โหลด Reranker
 
 ```python
 from sentence_transformers import SentenceTransformer, CrossEncoder
